@@ -1,5 +1,5 @@
 {
-  "name": "nekobottm",
+  "name": "blazerbotmusic",
   "version": "1.0.0",
   "description": "a shit bot rn",
   "main": "bot.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node bot.js"
   },
-  "author": "nekoboytm",
+  "author": "blazer178",
   "license": "ISC",
   "dependencies": {
     "cfdreamingbot": "^1.0.2",
