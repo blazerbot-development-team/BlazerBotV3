@@ -7,7 +7,7 @@ const readdir = promisify(require("fs").readdir);
 
 const { TOKEN, GOOGLE_API_KEY } = require('./config');
 
-const prefix = "bm!";
+const prefix = "bm/";
 
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
@@ -51,20 +51,20 @@ function game1() {
 }
 
 function game2() {
-    client.user.setActivity(`join support to help`, { type: "PLAYING" });
+    client.user.setActivity(`join support for help!`, { type: "PLAYING" });
     setTimeout(game3, 30000)
 }
 
 function game3() {
-   client.user.setActivity(`my prefix is Nb.`, { type: "PLAYING" });
+   client.user.setActivity(`Prefix is bm/`, { type: "PLAYING" });
     setTimeout(game4, 300000);
 }
 function game4() {
-   client.user.setActivity(`My Master's orders`, { type: "LISTENING" });
+   client.user.setActivity(`to Music`, { type: "LISTENING" });
     setTimeout(game5, 30000);
 }
 function game5() {
-   client.user.setActivity(`in bed with mustache`, { type: "PLAYING" });
+   client.user.setActivity(`with BlazerBot`, { type: "PLAYING" });
     setTimeout(game1, 30000);
 }
 
