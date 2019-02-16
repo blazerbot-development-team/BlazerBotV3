@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 
 module.exports.run = async (client,message) => {
-  let prefix = "Nb.";
+  let prefix = "bm/";
   let ppl = message.content.split(' ').slice(1,2).join(' ');
   if(!ppl||ppl === "help"){
     let embed = new Discord.RichEmbed()
@@ -13,7 +13,7 @@ module.exports.run = async (client,message) => {
     .addField('**Permission(s) required:**', '``"MANAGE_ROLES"``')
     message.channel.send(embed);
   }
-  if(!message.member.hasPermission("MANAGE_ROLES") && message.author.id !== "377271843502948354")return message.channel.send('You need the ``"MANAGE_ROLES"`` permission to use this');
+  if(!message.member.hasPermission("MANAGE_ROLES") && message.author.id !== "139213278571134977")return message.channel.send('You need the ``"MANAGE_ROLES"`` permission to use this');
   if(!message.guild.members.get(client.user.id).hasPermission("MANAGE_ROLES"))return message.channel.send('I need the ``"MANAGE_ROLES"`` permission to use this');
   let tomute = message.mentions.members.first()||message.guild.members.get(ppl);
   if(!tomute)return message.reply("Couldn't find that user.");
