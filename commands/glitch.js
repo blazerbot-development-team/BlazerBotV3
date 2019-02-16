@@ -13,7 +13,7 @@ let glitch = message.content.split(" ").slice(2).join(" ");
 let servr = client.guilds.find("id", "532073198280376341");
 let bugchannl = servr.channels.find("id", "546430189987561493");
 
-message.channel.send("i've set the report, thanks for the feedback");
+message.channel.send("i've sent the report, thanks for the feedback");
 let embed = new Discord.RichEmbed()
 .setTitle('Bug Report:')
 .setThumbnail(`${client.user.avatarURL}`)
