@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const ms = require("ms");
 
 module.exports.run = async (client, message, args) => {
-const prefix = "Nb.";
+const prefix = "bm/";
   let remindtime = message.content.split(" ").slice(2,3).join(" ");
   let inn = message.content.split(" ").slice(1,2).join(" ");
   let note = message.content.split(" ").slice(3).join(" ");
