@@ -6,7 +6,7 @@ const fs = require("fs")
 module.exports.run = async (client, message, args) => {
 	const tag = message.content.split(" ").slice(1).join(" ");
 	
-	if (!tag)return message.channel.send('current nsfw commands are: ``"boobs"``, ``"hentai"``, ``"cosplay"``, and ``"4k"`` ```Useage: Nb.nsfw <command>```');
+	if (!tag)return message.channel.send('current nsfw commands are: ``"boobs"``, ``"hentai"``, ``"cosplay"``, and ``"4k"`` ```Useage: bm/nsfw <command>```');
 	
 	if (tag == "boobs"){
     var max = 12449;
