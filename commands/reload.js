@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 
 module.exports.run = (client, message, args) => {
-if (message.author.id !== '377271843502948354')return;
+if (message.author.id !== '139213278571134977')return;
 	
   if(!args || args.size < 1) return message.reply("please provide a command to reload.");
   
