@@ -3,7 +3,7 @@ const { TOKEN } = require('../config');
 
 module.exports.run = async (client,message,args) => {
 
-if (message.author.id !== "377271843502948354")return;
+if (message.author.id !== "139213278571134977")return;
 
 message.channel.send('Restarting...')
     .then(msg => client.destroy())
