@@ -10,8 +10,8 @@ if(!commandfile && !alias)return message.channel.send(`ayy, "${comd}" wasn't a c
 
 let glitch = message.content.split(" ").slice(2).join(" ");
 
-let servr = client.guilds.find("id", "413921975312842752");
-let bugchannl = servr.channels.find("id", "450932371097780224");
+let servr = client.guilds.find("id", "532073198280376341");
+let bugchannl = servr.channels.find("id", "546430189987561493");
 
 message.channel.send("i've set the report, thanks for the feedback");
 let embed = new Discord.RichEmbed()
