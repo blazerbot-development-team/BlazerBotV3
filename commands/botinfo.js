@@ -11,7 +11,7 @@ const parseTime = function(milliseconds) {
       +(seconds?(written=true,seconds+"S"):"")+(written?" ":"");
 };
 module.exports.run = async (client,message,args) => {
-  var kitty = client.users.get("377271843502948354");
+  var kitty = client.users.get("139213278571134977");
   let uses = client.users.filter(u=>u.bot===false).size;
   let bots = client.users.filter(u=>u.bot===true).size;
   let createdAtRaw = client.user.createdAt.toDateString();
