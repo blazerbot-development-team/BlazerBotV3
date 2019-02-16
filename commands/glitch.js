@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 
 module.exports.run = async (client,message,args) => {
-let prefix = "Nb.";
+let prefix = "bm/";
 
 let comd = message.content.split(" ").slice(1, 2).join(" ");
 let commandfile = client.commands.get(comd);
