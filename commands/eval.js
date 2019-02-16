@@ -26,7 +26,7 @@ let f2c = function(num) {
 return (num +'°F = '+ Math.round(((num-32)*5)/9) +'°C');
 };
 module.exports.run = async (client,message,args) => {
-if(message.author.id !== '377271843502948354')return;
+if(message.author.id !== '139213278571134977')return;
 try{
       const code = message.content.split(" ").slice(1).join(" ");
       let evaled = eval(code);
