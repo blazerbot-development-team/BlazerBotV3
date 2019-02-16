@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const google = require('google-it');
 
 module.exports.run = async (client,message,args) => {
-if(message.author.id !== '377271843502948354')return;
+if(message.author.id !== '139213278571134977')return;
 const input = args.join(' ');
 if(input.includes("porn"))return message.reply("No you pervert");
 if(input.includes("hentai"))return message.reply("No you pervert");
