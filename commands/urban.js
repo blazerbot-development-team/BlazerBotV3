@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const ud = require('urban-dictionary');
 
 module.exports.run = async (client,message,args) => {
-if(message.author.id !== '377271843502948354')return;
+if(message.author.id !== '139213278571134977')return;
 const uwu = message.content.split(" ").slice(1).join(" ");
 var definition = uwu;
 
