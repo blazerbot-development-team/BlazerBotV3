@@ -64,7 +64,7 @@ function game4() {
     setTimeout(game5, 30000);
 }
 function game5() {
-   client.user.setActivity(`with BlazerBot`, { type: "PLAYING" });
+   client.user.setActivity(`bm/help`, { type: "PLAYING" });
     setTimeout(game1, 30000);
 }
 
