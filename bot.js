@@ -1,7 +1,6 @@
 const { Util } = require("discord.js");
 const Discord = require('discord.js');
 const YouTube = require('simple-youtube-api');
-const prefix = config.PREFIX;
 const ytdl = require('ytdl-core');
 const { promisify } = require("util");
 const readdir = promisify(require("fs").readdir);
