@@ -7,7 +7,7 @@ const readdir = promisify(require("fs").readdir);
 
 const { TOKEN, GOOGLE_API_KEY } = require('./config');
 
-const prefix = "bm/";
+const prefix = "b/";
 
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
