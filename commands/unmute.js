@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 
 module.exports.run = async (client,message) => {
-  let prefix = "bm/";
+  let prefix = "b/";
   let ppl = message.content.split(' ').slice(1,2).join(' ');
   if(!ppl||ppl === "help"){
     let embed = new Discord.RichEmbed()
