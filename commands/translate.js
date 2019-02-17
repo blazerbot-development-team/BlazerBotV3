@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const translate = require('google-translate-api');
 
 module.exports.run = async (client, message, args) => {
-	let prefix = "Nb.";
+	let prefix = "b/";
 
 const idk = message.content.split(" ").slice(2).join(" ");
 const lang = message.content.split(" ").slice(1,2).join(" ");
