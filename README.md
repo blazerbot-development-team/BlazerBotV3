@@ -1,2 +1,9 @@
 # BlazerBotV3
-A Discord bot that I am in the middle of developing.
+The latest version of BlazerBot. Set up to work with Heroku. 
+
+BlazerBot was made by @Blazer178#3381 with help from many different sources and people. 
+
+
+Join the official discord!
+
+Discord: https://discord.gg/sa8RGHk
