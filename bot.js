@@ -51,12 +51,12 @@ function game1() {
 }
 
 function game2() {
-    client.user.setActivity(`join support for help!`, { type: "PLAYING" });
+    client.user.setActivity(`Join our Discord for Help!`, { type: "PLAYING" });
     setTimeout(game3, 30000)
 }
 
 function game3() {
-   client.user.setActivity(`Prefix is bm/`, { type: "PLAYING" });
+   client.user.setActivity(`Prefix is b/`, { type: "PLAYING" });
     setTimeout(game4, 300000);
 }
 function game4() {
@@ -64,7 +64,7 @@ function game4() {
     setTimeout(game5, 30000);
 }
 function game5() {
-   client.user.setActivity(`bm/help`, { type: "PLAYING" });
+   client.user.setActivity(`Coding with Blazer`, { type: "PLAYING" });
     setTimeout(game1, 30000);
 }
 
@@ -85,7 +85,7 @@ client.on('message', async message => {
 	if(message.channel.type !== "text")return;
 	if(!message.content.startsWith(prefix)) return;
     if(message.content.startsWith(prefix) && client.user.presence.status === "invisible"){
-	  if(message.author.id !== '377271843502948354')return;
+	  if(message.author.id !== '139213278571134977')return;
   }
 
   let messageArray = message.content.split(" ");
