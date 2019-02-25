@@ -1,9 +1,9 @@
 const Discord = require("discord.js");
-const botconfig = require("../botconfig.json");
+const botconfig = require("../config.js");
 
 module.exports.run = async (bot, message, args) => {
     const msg = message.content;
-    if (msg.startsWith(botconfig.prefix + "advice")) {
+    if (msg.startsWith(config.prefix + "advice")) {
         const request = require('request');
         let cn = request("http://api.adviceslip.com/advice", function(err, res, body) {
           try {
