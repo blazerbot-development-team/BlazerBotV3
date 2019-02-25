@@ -28,6 +28,7 @@
     "ms": "^2.1.1",
     "neko.js": "^1.9.4",
     "node-fetch": "^2.3.0",
+    "node-superfetch": "^0.1.9",
     "node-kitsu": "^1.1.1",
     "npm": "^6.8.0",
     "opusscript": "0.0.6",
