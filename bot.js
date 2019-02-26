@@ -51,7 +51,7 @@ function game1() {
 }
 
 function game2() {
-    client.user.setActivity(`Join our Discord for Help!`, { type: "PLAYING" });
+    client.user.setActivity(`Use b/help for Help!`, { type: "PLAYING" });
     setTimeout(game3, 30000)
 }
 
