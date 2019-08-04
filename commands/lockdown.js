@@ -34,7 +34,7 @@ exports.run = (bot, message, args, tools) => {
                             message.channel.overwritePermissions(message.guild.id, {
                                     SEND_MESSAGES: null
                                 })
-                                .then(message.channel.send('Lockdown lifted.'))
+                                .then(message.channel.send(':large_blue_circle: :unlock: Lockdown lifted.'))
                                 .catch(console.error);
                             delete bot.lockit[message.channel.id];
                         }, ms(time));
